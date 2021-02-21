@@ -1,0 +1,213 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .news{
+  color:rgb(245, 234, 234);
+  font-size: 20px;
+}
+.vc_custom_heading{
+  text-align: center;}
+p {
+  margin-left: 10px;
+  padding-left: 10px;
+  
+}
+ul{
+  
+  margin: 40PX;
+  margin-top: 20PX;
+}
+.navbar-expand>.container, .navbar-expand>.container-fluid, .navbar-expand>.container-lg, .navbar-expand>.container-md, .navbar-expand>.container-sm, .navbar-expand>.container-xl {
+  
+  height: 90px;
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top:150px;
+    right: 10px;
+    background: #111;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #064579;
+        }
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    /* Increased text to enable scrolling */
+    padding: 20px 40px;
+    margin:40px 80px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+.outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.outer h3 {
+    padding-top: o;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 0px;
+    margin-top: 0%;
+}
+
+.custom-control-label {
+    font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+}
+
+    .forgot-password a {
+        color: #167bff;
+    }
+
+.outer .form-controlarabic {
+    text-align: right;
+    width: 340px;
+    height: 36px;
+}
+
+.outer .arabic {
+    padding-left: 263px;
+    font-size: 15px;
+}
+
+.navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+
+.custom-control-label {
+    font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+}
+
+    .forgot-password a {
+        color: #167bff;
+    }
+
+.outer .form-controlarabic {
+    text-align: right;
+    width: 340px;
+    height: 36px;
+}
+
+.outer .arabic {
+    padding-left: 263px;
+    font-size: 15px;
+}
+
+.outer {
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+
+.sigin {
+    min-height: 83.7999vh;
+    display: flex;
+    font-weight: 400;
+    font-family: sans-serif;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+
+    .sigin h3 {
+        text-align: center;
+        margin: 0;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
