@@ -21,26 +21,26 @@ async function getUsers() {
     render() {
 
         return (
-            <div class="sigin">
-                <div class="inner">
+            <div className="sigin">
+                <div className="inner">
                     <form>
                         <h3>Log in</h3>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label>Email</label>
-                             <input type="email" class="form-control" placeholder="Enter email"/>
+                             <input type="email" className="form-control" placeholder="Enter email"/>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label>Password</label>
-                            <input type="password" class="form-control" placeholder="Enter password"/>
+                            <input type="password" className="form-control" placeholder="Enter password"/>
                         </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="customCheck1"/>
-                                <label class="custom-control-label" for="customCheck1">Remember me</label>
+                        <div className="form-group">
+                            <div className="custom-control custom-checkbox">
+                                <input type="checkbox" className="custom-control-input" id="customCheck1"/>
+                                <label className="custom-control-label" for="customCheck1">Remember me</label>
                              </div>
                         </div>
-                        <button type="submit" class="btn btn-dark btn-lg btn-block">Sign in</button>
-                        <p class="forgot-password text-right">Forgot <a href="#">password?</a></p>
+                        <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
+                        <p className="forgot-password text-right">Forgot <a href="#">password?</a></p>
                     </form>  
                 </div>
             </div>

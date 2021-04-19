@@ -2,20 +2,20 @@ import React from "react";
 function About() {
         return (
             <div>
-                <div class="sidenav">
+                <div className="sidenav">
                     <a href="#home">Home</a>
                     <a href="#History">History</a>
                     <a href="#c">Contact</a>
                     <a href="/Maps">Map</a>
                 </div>
-                <div class="main" >
+                <div className="main" >
                     <div id="home">
                         <h3>Welcome To Suez Canal University</h3>
                         <hr/>
-                        <p class="font-weight-light">
+                        <p className="font-weight-light">
                             <img src="/images/Capture.JPG" alt="" align='center' width='600' height='300' />
                         </p>
-                        <p class="font-weight-light">Suez Canal University helps the students acquire creative abilities and commitment
+                        <p className="font-weight-light">Suez Canal University helps the students acquire creative abilities and commitment
                         s to lifelong learning. We believe that our students graduate with developed writing, analytical
                         and communication skills essential for them. SCU graduates prosper not just on their first job
                         but through their entire career.SCU University helps develop the students map of thinking to gain
@@ -29,11 +29,11 @@ function About() {
                     <div id="History">
                         <h3>History Of Suez Canal University</h3>
                         <hr />
-                        <p class="font-weight-light">The Suez Canal University is an Egyptian university serving the Suez Canal region.
+                        <p className="font-weight-light">The Suez Canal University is an Egyptian university serving the Suez Canal region.
                         Its faculties are located in the three governorates of the Suez Canal Region (Port Said, Ismailia & Suez).
                         It was established in 1974. It is well-known for its non-traditional research.
                      </p>
-                        <p class="card-text">
+                        <p className="card-text">
                             It has 48 faculties:
 <ul>
                             <li>16 in Ismailia</li><br/>
@@ -49,7 +49,7 @@ function About() {
 
 
                     <div id="c">
-                        <p class="font-weight-light" >
+                        <p className="font-weight-light" >
                             <h3>To contact Suez Canal University</h3>
                             <hr/>
                            

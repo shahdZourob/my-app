@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <div className="contact">
-      <h2  class="vc_custom_heading">About Public Relations &amp; Communications</h2>
-      <div class="wpb_wrapper">
+      <h2  className="vc_custom_heading">About Public Relations &amp; Communications</h2>
+      <div className="wpb_wrapper">
 			  <p>The Seuz Canal University Public Relations &amp; Communications department exists to maintain and enhance the reputation of the university and to highlight its prominence in the fields of undergraduate education, research &amp; community services. It does this through a wide range of channels and adopts different approaches.</p>
         <p>”Public Relations is about reputation – the result of what you do, what you say and what others say about you”</p>
         <p>Responsibilities of the Public Relations and Communications Department:</p>

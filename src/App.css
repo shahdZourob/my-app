@@ -41,3 +41,38 @@
   background-color: #282c34;
 }
 
+@media only screen and (max-width: 768px){
+#footer-nav ul {
+    padding-right: 0px;
+    display: inline;
+
+}
+
+#footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: inline;
+
+}
+}
+
+@media only screen and (max-width: 768px){
+#footer-nav {
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline;
+}
+
+#footer-content {
+  color: #777;
+  padding: 30px 40px;
+}
+
+#site-footer {
+  background: #FFF;
+  padding-right: 150px;
+  font-family: 'JF Flat Regular';
+}
+}
+

@@ -3,114 +3,119 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-      <div class="container">
-
-<br />
-    <div className="Show">
-
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" >
-  <ol className="carousel-indicators">
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-  </ol>
-
-<div className="carousel-inner">
-  <div className="carousel-item active">
-    <img src="/images/suez.JPG" className="d-block w-100" alt="slideShow" />
-  </div>
-
-<div className="carousel-item">
-  <img src="/images/safe.JPG" className="d-block w-100" alt="slideShow" />
-</div>
-
-<div className="carousel-item">
-  <img src="http://suez.edu.eg/ar/wp-content/uploads/2020/12/131388559_1002693043550531_2825628651205583726_n.jpg" className="d-block w-100" alt="slideShow" />
-</div>
-</div>
-
-<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-</a>
-
-<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-  <span className="visually-hidden">Next</span>
-</a>
-
-</div>
-
+      <div className="container">
+        <br />
+        <div className="slideshow">
+        
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="/images/7asbat.JPG" className="d-block w-100" alt="slideShow" />
     </div>
+    <div class="carousel-item">
+    <img src="/images/corona.JPG" className="d-block w-100" alt="slideShow" />
+    </div>
+    <div class="carousel-item">
+    <img src="http://suez.edu.eg/ar/wp-content/uploads/2020/12/131388559_1002693043550531_2825628651205583726_n.jpg" className="d-block w-100" alt="slideShow" />
+    </div>
+  </div>
+</div>
+        </div>
+
+
 
 
     <br />
-    <div class= "welcome">
+    <div className= "welcome">
 
-  <h2 class="text-center" >Welcome to The Suez Canal University in Egypt!</h2> 
-  <h6 class="text-center">The miracles of the Egyptian Scientists from seven thousand years ago are still surprising all researchers 
+  <h2 className="text-center" >Welcome to The Faculty of Computer and Informatics!</h2> 
+  <h6 className="text-center">The miracles of the Egyptian Scientists from seven thousand years ago are still surprising all researchers 
   over the world. The genes of glory-making inherited from the ancestors are reshaping the future and the 
   status that Egypt deserves among nations. </h6>
 
-    </div>    
+    </div>   
+
 
 <br />
-    <div class="nav-dark">
-
-<div class="collapse" id="navbarToggleExternalContent">
-  <div class="bg-dark p-4">
+<div class="card text-center">
+  <div class="card-header bg-dark">
+    
+  </div>
+  <div class="card-body bg-dark">
     <h5 class="text-white h4">Suez Canal University COVID-19 CORONA VIRUS GUIDANCE</h5>
+    <p class="card-text"></p>
+    <a href="https://govextra.gov.il/ministry-of-health/corona/corona-virus-ar/" class="btn btn-primary bg-dark"> More Information </a> <br /><br />
+    <a href="https://www.skynewsarabia.com/live-story/1345832-%D9%85%D8%B3%D8%AA%D8%AC%D8%AF%D8%A7%D8%AA-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D8%A7%D9%94%D8%AD%D8%AF%D8%AB-%D8%A7%D9%94%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85" class="btn btn-primary bg-dark"> News </a>
 
-<a href="#" class="btn btn-primary bg-dark"> More Information </a> <br /> <br />
-<a href="#" class="btn btn-primary bg-dark"> News </a>
   </div>
 </div>
 
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-</nav>
 
-    </div>
 
-    <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div className="container">
 
 <br />
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src={'/images/1.jpg'} class="card-img-top" alt="..." />
-          <div class="card-header">
-            <a href="#" class="btn btn-primary bg-dark"> Open Day </a>
+<div className="row row-cols-1 row-cols-md-3 g-4">
+  <div className="col">
+    <div className="card">
+      <img src={'/images/1.jpg'} className="card-img-top" alt="..." />
+          <div className="card-header">
+            <a href="http://localhost:3000/Events" className="btn btn-primary bg-dark"> Open Day </a>
     </div>
   </div>
 </div>
 
-<div class="col">
-  <div class="card">
-    <img src={'/images/2.jpg'} class="card-img-top" alt="..." />
-      <div class="card-header">
-        <a href="#" class="btn btn-primary bg-dark"> Admission </a>
+<div className="col">
+  <div className="card">
+    <img src={'/images/2.jpg'} className="card-img-top" alt="..." />
+      <div className="card-header">
+        <a href="http://localhost:3000/about" className="btn btn-primary bg-dark"> Admission </a>
     </div>
   </div>
 </div>
 
-  <div class="col">
-    <div class="card">
-      <img src={'/images/3.jpg'} class="card-img-top" alt="..." />
-      <div class="card-header">
-        <a href="#" class="btn btn-primary bg-dark"> Virtual Tour </a>
+  <div className="col">
+    <div className="card">
+      <img src={'/images/3.jpg'} className="card-img-top" alt="..." />
+      <div className="card-header">
+        <a href="http://localhost:3000/Info" className="btn btn-primary bg-dark"> Virtual Tour </a>
       </div>
     </div>
   </div>
 
-  <div class="col">
-    <div class="card">
-      <img src={'/images/4.jpg'} class="card-img-top" alt="..."  />
-      <div class="card-header">
-        <a href="#" class="btn btn-primary bg-dark"> Student Activities </a>
+  <div className="col">
+    <div className="card">
+      <img src={'/images/4.jpg'} className="card-img-top" alt="..."  />
+      <div className="card-header">
+        <a href="http://localhost:3000/Events" className="btn btn-primary bg-dark"> Student Activities </a>
       </div>
     </div>
   </div>
@@ -120,44 +125,105 @@ function Home() {
 
  
     <br />
-    <div class="footer">
 
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <img src={'/images/7.jpg'} class="card-img-top" alt="..." />
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr/>
+    <footer>
+  <div class="footer-top">
+    <div class="container">
+
+      <div class="pull-right">
+        <div class="date-today"></div>
+      </div>
+      <div class="pull-left">
+        <a href="#" class="scrollup main-background" style={{display:'block'}}>
+          <span class="fa fa-arrow-up">..</span>
+          <p>الاعلى</p>
+        </a>
+      </div>
+
+    </div>    
   </div>
+    <hr/>
+    <br />
+    <footer id="site-footer">
+      <footer id="footer-content">
+        <div className="row">
+          <div className="col-sm-9">
+            <nav id="footer-nav">
+              <table>
+                <thead>
 
-  <div class="col-sm-6">
-  <div class="card-body">
-    <h5 class="card-title">Contact Us</h5>
-      <p class="card-text"> 
-          <li> Address: Egypt - Ismailia - Kilo Ring Road 4.5 </li><br />
-          <li> Email : President_office@suez.edu.eg </li> <br />
-          <li> Ismailia : (+2064) 3223007 - 32001258 </li> <br />
-          <li> Cairo office : (+202) 22621218 - 22621216 </li> <br />
-          <li> Fax : (+202) 22621217 - (+2064) 3205208  </li> <br />
-          </p> 
+                  <th>
+                    <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Egypt - Ismailia - Kilo Ring Road 4.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                  </th>
 
+                  <th>
+                    <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Phone: (+2064) 3223007 - 32001258 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                  </th>
 
-          <div class="input-group mb-3">
-    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Email"  /> <br />
-<div class="col-12"> <br />
-    <button type="button" class="btn btn-primary bg-dark  bg-secondary" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Subscribe for Newsletter</button>
-</div>
-</div>
+                  <th>
+                    <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Fax:  (+202) 22621217 - (+2064) 3205208 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                  </th>
 
-  </div>
-  </div>
+                  <th>
+                    <a href="#" style={{textDecoration:' none',color:'black',fontFamily:'serif'}}> President_office@suez.edu.eg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                  </th>
 
-  <div class="under" >
-<nav class="navbar navbar-expand-lg navbar-hight bg-light">
-  <div class="container-fluid">
-    <h5 class="fw-bolder text-dark ">All Rights Reserved© 2019 Suez Canal University - Portal</h5>
+                </thead>
+                </table>       
+            </nav>
+          </div>
+
+          <div className="col-sm-3">
+            <p className="text-left">    </p>
+          </div>
+          <br />
+          <br />
+          <div className="under" >
+<nav className="navbar navbar-expand-lg navbar-hight bg-light">
+  <div className="container-fluid">
+    <h5></h5>
   </div>
 </nav>
     </div>
+        </div>
+      </footer>
+    </footer>
+
+</footer>
 
 
 
@@ -175,8 +241,88 @@ function Home() {
 
 
 
-</div>
-    </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
 

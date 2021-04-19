@@ -21,31 +21,31 @@ async function getUsers() {
     render() {
 
         return (
-            <div class="outer">
-            <div class="inner">
+            <div className="outer">
+            <div className="inner">
              <form> 
               <h3>Register</h3>
-              <div class="form-group"> 
+              <div className="form-group"> 
                <label>First name</label>
-               <input type="text" class="form-control" placeholder="First name"/>
+               <input type="text" className="form-control" placeholder="First name"/>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                <label>Last name</label>
-               <input type="text" class="form-control" placeholder="Last name"/>
+               <input type="text" Name="form-control" placeholder="Last name"/>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                <label>Email</label>
-               <input type="email" class="form-control" placeholder="Enter email"/>
-              </div><div class="form-group">
+               <input type="email" className="form-control" placeholder="Enter email"/>
+              </div><div className="form-group">
                <label>Password</label>
-               <input type="password" class="form-control" placeholder="Enter password"/>
+               <input type="password" className="form-control" placeholder="Enter password"/>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                <label>student id</label>
-               <input type="password" class="form-control" placeholder="Enter student id"/>
+               <input type="password" className="form-control" placeholder="Enter student id"/>
               </div>
-              <button type="submit" class="btn btn-dark btn-lg btn-block">Register</button>
-              <p class="forgot-password text-right">Already registered <a href="#">log in?</a></p>
+              <button type="submit" className="btn btn-dark btn-lg btn-block">Register</button>
+              <p className="forgot-password text-right">Already registered <a href="#">log in?</a></p>
              </form>
             </div>
            </div>
