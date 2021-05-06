@@ -4,48 +4,104 @@ function Con() {
           <div>
             
                 
-<hr/>
 
 <div className="main" >
     
+<h3 className="inner-page-title heading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الخدمات الالكترونية</h3>
+<hr/>
 
-      
-<div className="inner-page-template">
-  <div className="container">
-    <div className="row">
-      <pre></pre><div class="col-md-3">
 <br />
-        <ul className="list-unstyled inner-page-links">
+<div className="form-group fw-bold">
+<ul className="list-unstyled inner-page-links">
           <li className="nav-item text-center">
-            <a href="http://localhost:3000/Student" style={{textDecoration:' none', color:'black'}} class="btn btn-primary bg-light text-dark"> خدمات الطلبة <br /></a> <br /> <br />
+            <a href="http://localhost:3000/Student" style={{textDecoration:' none', color:'black'}} className="btn btn-primary bg-light text-dark"> خدمات الطلبة <br /></a> <br /> <br />
           </li>
 
           <li className="nav-item text-center">
-            <a href="http://localhost:3000/Activity" style={{textDecoration:' none', color:'black'}} class="btn btn-primary bg-light text-dark"> أنشطة طلابية <br /></a> <br /> <br />
+            <a href="http://localhost:3000/Activity" style={{textDecoration:' none', color:'black'}} className="btn btn-primary bg-light text-dark"> أنشطة طلابية <br /></a> <br /> <br />
           </li>
         </ul>
 
-                </div>
-
-
-
-
-<div className="col-md-9">
-              <h3 className="inner-page-title heading">Electronic Services</h3>
-<hr/>
-            </div>
-
-
-
-
-
-
-
-
-
 </div>
-  </div>   
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br />
 <br />

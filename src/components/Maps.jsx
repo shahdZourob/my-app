@@ -1,20 +1,22 @@
 import React, { Component } from "react";
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 class Maps extends Component {
     render() {
         return (
             <Map
-                google={this.props.google}
-                zoom={14}
-                initialCenter={{
-                    lat: 30.620782267018573,
-                    lng: 32.26980409883319
-                }}
-            />
+                google = {this.props.google}
+                zoom = {8}
+                
+                initialCenter={{lat: 30.624101250813, lng: 32.278003692627}}
+              >
+
+                <Marker position={{ lat: 30.62147474123568, lng: 32.26960025397569}} />
+
+              </Map>
 
         );
     }
 }
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyATukSpPD1lJcTArG36UPt_Xk3CKTVtpxs'
-})(Maps)
+    apiKey: 'AIzaSyA1PfJ-166KWjv71L9w00nNxUzpZUR_5WM'
+  })(Maps)

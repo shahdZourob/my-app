@@ -69,9 +69,28 @@ function Events() {
           </div>
         </div>
       </div>
+      <br />
+<hr/>
+<footer>
+  <div class="footer-top">
+    <div class="container">
+
+      <div class="pull-right">
+        <div class="date-today"></div>
+      </div>
+      <div class="pull-left">
+        <a href="#" class="scrollup main-background" style={{display:'block'}}>
+          <span class="fa fa-arrow-up">..</span>
+          <p>الاعلى</p>
+        </a>
+      </div>
+
+    </div>    
+  </div>
+  </footer>
 
     </div>
-
+<hr/>
 
  </div>
      

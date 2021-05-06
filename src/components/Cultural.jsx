@@ -146,7 +146,8 @@ class cultural extends Component {
 </tbody>
 
 
-
+<hr/>
+<br />
 
 
 

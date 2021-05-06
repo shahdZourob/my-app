@@ -1,4 +1,5 @@
 import React from "react";
+import {Map, GoogleApiWrapper, Marker} from 'google-maps-react';
 
 function Home() {
   return (
@@ -183,6 +184,25 @@ function Home() {
         <div className="row">
           <div className="col-sm-9">
             <nav id="footer-nav">
+
+            <Map
+                google = {this.props.google}
+                zoom = {8}
+                
+                initialCenter={{lat: 47.444, lng: -122.176}}
+              >
+
+                <Marker position={{ lat: 48.00, lng: -122.00}} />
+
+              </Map>
+          
+
+
+
+
+
+
+
               <table>
                 <thead>
 
@@ -451,4 +471,6 @@ function Home() {
   );
 }
 
-export default Home;
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyA1PfJ-166KWjv71L9w00nNxUzpZUR_5WM'
+})(Home);

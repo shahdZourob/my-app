@@ -6,6 +6,7 @@ class ExamResults extends Component {
     render(){
     return(
         <div>
+           
           <br />
             <div className="container">
                 <thead>
@@ -42,7 +43,7 @@ class ExamResults extends Component {
                              <input type="text" className="form-control" placeholder=""/>
                         </div>
                     </form>
-                        <button type="submit" className="btn btn-dark btn-lg btn-block">دخول</button>
+                    <a className="btn btn-dark btn-lg btn-block" href="http://localhost:3000/SittingNumber" role="button">دخول</a>
                 </div>
 </div>
 

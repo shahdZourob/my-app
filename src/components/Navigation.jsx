@@ -53,7 +53,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link className="nav-link" to="/about">
-                  Study At Suez Canal University
+                  Study At FCI
                 </Link>
               </li>
 
@@ -127,6 +127,7 @@ function Navigation(props) {
                                 
                 </Link>
               </li>
+              
               <li
                 className={`nav-item  ${props.location.pathname === "/LectureSchedule" ? "active" : ""
                     }`}
@@ -136,6 +137,55 @@ function Navigation(props) {
                 </Link>
               </li>
               <li
+                className={`nav-item  ${props.location.pathname === "/GradeOneLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeOneLecture">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeTwoLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeTwoLecture">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeThirdISLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeThirdISLecture">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeThirdCSLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeThirdCSLecture">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeFourISLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeFourISLecture">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeFourCSLecture" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeFourCSLecture">
+                                
+                </Link>
+              </li>
+
+              <li
                 className={`nav-item  ${props.location.pathname === "/ExamSchedule" ? "active" : ""
                     }`}
               >
@@ -144,10 +194,84 @@ function Navigation(props) {
                 </Link>
               </li>
               <li
+                className={`nav-item  ${props.location.pathname === "/GradeOneExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeOneExamSchedule">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeTwoExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeTwoExamSchedule">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeThirdISExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeThirdISExamSchedule">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeThirdCSExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeThirdCSExamSchedule">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeFourISExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeFourISExamSchedule">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/GradeFourCSExamSchedule" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GradeFourCSExamSchedule">
+                                
+                </Link>
+              </li>
+
+              <li
                 className={`nav-item  ${props.location.pathname === "/ExamResults" ? "active" : ""
                     }`}
               >
                 <Link className="nav-link" to="/ExamResults">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/SittingNumber" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/SittingNumber">
+                                
+                </Link>
+              </li>
+              
+              <li
+                className={`nav-item  ${props.location.pathname === "/GraduationCertificate" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/GraduationCertificate">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/Submit" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/Submit">
                                 
                 </Link>
               </li>

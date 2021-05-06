@@ -148,9 +148,8 @@ class Artistic extends Component {
 
 
 
-
-
-
+<hr/>
+<br />
 
 
 

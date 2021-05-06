@@ -11,8 +11,8 @@ function Contact() {
         <ul>
          <li>Work collaboratively with the other departments to understand and promote their respective events and programs, informing the media about interesting events related to students, faculties, staff and alumni</li>
          <li>Improving internal communications on campus with students</li>
-         <li>&nbsp;Manage the website; Update the news on the BUE website</li>
-         <li>Maintain Relationships with key media sources ensuring goals are being met. Cultivate relationships with media to build better understanding &amp; support for the British University</li>
+         <li>&nbsp;Manage the website; Update the news on the Suez Canal University website</li>
+         <li>Maintain Relationships with key media sources ensuring goals are being met. Cultivate relationships with media to build better understanding &amp; support for the Suez Canal University</li>
          <li>&nbsp;Assists with distribution of press materials to the media in both English and Arabic</li>
          <li>Tracks and maintains media coverage, updates media database and additional contact lists and helps qualify and fulfill media requests.</li>
          <li>&nbsp;Daily News Paper screening, internet searching</li>
