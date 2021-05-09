@@ -8,20 +8,16 @@ function Home() {
         <br />
         <div className="slideshow">
         
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img src="/images/7asbat.JPG" className="d-block w-100" alt="slideShow" />
-    </div>
-    <div class="carousel-item">
-    <img src="/images/corona.JPG" className="d-block w-100" alt="slideShow" />
-    </div>
-    <div class="carousel-item">
-    <img src="http://suez.edu.eg/ar/wp-content/uploads/2020/12/131388559_1002693043550531_2825628651205583726_n.jpg" className="d-block w-100" alt="slideShow" />
-    </div>
-  </div>
-</div>
+        <div className="slideshow">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="http://portal.suez.edu.eg/fci/sites/default/files/gva-sliderlayer-upload/slider.png" className="d-block w-100" alt="slideShow" style={{dataduration:'300', databgparallax:'8',  datascalestart:'0', datascaleend:'0', datakenburns:'off',  databgrepeat:'no-repeat', backgroundcolor:'#f2f2f2', databgfit:'cover', databgposition:'center center'}} />
+            </div>
         </div>
+    </div>
+</div>
+</div>
 
 
 
@@ -53,30 +49,7 @@ function Home() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br />
 
 
 
@@ -158,7 +131,7 @@ function Home() {
 
 
 
-
+<br />
 
 <hr/>
     <footer>
@@ -179,74 +152,85 @@ function Home() {
   </div>
     <hr/>
     <br />
-    <footer id="site-footer">
-      <footer id="footer-content">
-        <div className="row">
-          <div className="col-sm-9">
-            <nav id="footer-nav">
-
-            <Map
-                google = {this.props.google}
-                zoom = {8}
-                
-                initialCenter={{lat: 47.444, lng: -122.176}}
-              >
-
-                <Marker position={{ lat: 48.00, lng: -122.00}} />
-
-              </Map>
-          
+    <br />
 
 
 
 
+    <div class="footer">
 
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card bg-dark text-white">
+  <img src={'/images/7asbat.jpg'} class="card-img" alt="..."/>
+  <div class="card-img-overlay">
+    <h5 class="card-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objectives</h5>
+    <p class="card-text">
+    <ul>
+            <li className="">Developing the undergraduate and postgraduate education.</li>
+            <li className="">Consolidating students' support systems and Students Activities.</li>
+            <li className="">Raising the efficiency of the academic staff and their associates.</li>
+            <li className="">Enhancing the performance of the administrative staff.</li>
+        </ul>
+    </p>
+  </div>
+</div>
+    </div>
+  </div>
 
-
-              <table>
-                <thead>
-
-                  <th>
+<div class="col-sm-6">
+  <div class="card-body">
+    <h5 class="card-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</h5>
+      <p class="card-text"> 
+                <ul>  
+                  <li>
                     <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Egypt - Ismailia - Kilo Ring Road 4.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                  </th>
+                  </li>
 
-                  <th>
+                 <li>
                     <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Phone: (+2064) 3223007 - 32001258 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                  </th>
+                  </li>
 
-                  <th>
+                  <li>
                     <a href="#" style={{textDecoration:' none', color:'black',fontFamily:'serif'}}> Fax:  (+202) 22621217 - (+2064) 3205208 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                  </th>
+                  </li>
 
-                  <th>
+                  <li>
                     <a href="#" style={{textDecoration:' none',color:'black',fontFamily:'serif'}}> President_office@suez.edu.eg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                  </th>
+                  </li>
+                </ul>
+      </p> 
+          
+      <div className="form-group fw-bold">
+        <ul className="list-unstyled inner-page-links">
+          <li className="nav-item text-center">
+            <a href="http://localhost:3000/Maps" style={{textDecoration:' none', color:'black'}} className="btn btn-primary bg-dark  bg-secondary"> Maps <br /></a> <br /> <br />
+          </li>
+        </ul>
+      </div> 
 
-                </thead>
-                </table>       
-            </nav>
-          </div>
+ </div>
+  </div>
+</div>
+    </div>
 
-          <div className="col-sm-3">
-            <p className="text-left">    </p>
-          </div>
-          <br />
-          <br />
-          <div className="under" >
-<nav className="navbar navbar-expand-lg navbar-hight bg-light">
-  <div className="container-fluid">
-    <h5></h5>
+    <div class="under" >
+<nav class="navbar navbar-expand-lg navbar-hight bg-light">
+  <div class="container-fluid">
+    <p class="fw-bolder text-dark ">All Rights Reserved© 2019 Suez Canal University - Portal</p>
   </div>
 </nav>
-    </div>
-        </div>
-      </footer>
-    </footer>
+    </div> 
 
 </footer>
 
 
-
+<footer class="w3-container w3-dark-grey" style={{padding:'32px'}}>
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom">
+    <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 
 
@@ -471,6 +455,4 @@ function Home() {
   );
 }
 
-export default GoogleApiWrapper({
-  apiKey: 'AIzaSyA1PfJ-166KWjv71L9w00nNxUzpZUR_5WM'
-})(Home);
+export default Home;

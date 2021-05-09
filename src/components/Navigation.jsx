@@ -9,8 +9,8 @@ function Navigation(props) {
          
            <p className="news">
            <div className="container-fluid">
-    <img className="vc_img-placeholder vc_single_image-img" src="http://stage.suez.edu.eg/wp-content/uploads/2019/05/logo2.png" alt="logo"></img>
-
+    <img className="vc_img-placeholder vc_single_image-img" src="/images/fci-logo.png" alt="logo" style={{height:'100px'}}></img>
+    
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +37,6 @@ function Navigation(props) {
                                  About
                 </Link>
               </li>
-
               <li
                 className={`nav-item  ${props.location.pathname === "/Maps" ? "active" : ""
                     }`}
@@ -258,7 +257,7 @@ function Navigation(props) {
                                 
                 </Link>
               </li>
-              
+
               <li
                 className={`nav-item  ${props.location.pathname === "/GraduationCertificate" ? "active" : ""
                     }`}
