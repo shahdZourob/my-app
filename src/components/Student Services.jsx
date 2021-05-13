@@ -1,121 +1,196 @@
 import React from "react";
-function Con() {
-        return (
-          <div>
-            
-                
 
-<div className="main" >
+function Contact() {
+  return (
     
-<h3 className="inner-page-title heading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الخدمات الالكترونية</h3>
-<hr/>
 
-<br />
-<div className="form-group fw-bold">
-<ul className="list-unstyled inner-page-links">
-          <li className="nav-item text-center">
-            <a href="http://localhost:3000/Student" style={{textDecoration:' none', color:'black'}} className="btn btn-primary bg-light text-dark"> خدمات الطلبة <br /></a> <br /> <br />
-          </li>
+      <div class="content">
+        <div class="col-md-2 sin-bottom" id="sidebar-wrapper">
+  <div class="sidenav" style={{width:'15%',  position:'fixed', textSize: '10px', background:'#e6f2ff'}}>
+    <h5 class=" text-center" style={{background:'#4da6ff'}}>عن الجامعة</h5>
+<div class="row">
+  <div class="col-md-10">
+    <thead>
+    <tr>
+    <th scope="col">
+      <a href="http://localhost:3000/ExamResults"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;نتائج الامتحانات</h6></a>
+      </th>
+      </tr>
+      </thead>
 
-          <li className="nav-item text-center">
-            <a href="http://localhost:3000/Activity" style={{textDecoration:' none', color:'black'}} className="btn btn-primary bg-light text-dark"> أنشطة طلابية <br /></a> <br /> <br />
-          </li>
-        </ul>
+      <tbody>
+        <tr>
+          <th scope="col">
+            <a href="http://localhost:3000/ExamSchedule"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;جداول الامتحانات</h6></a>
+          </th>
+        </tr>
+      </tbody>
 
+      <tbody>
+        <tr>
+          <th scope="col">
+            <a href="http://localhost:3000/LectureSchedule"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;جداول محاضرات</h6></a>
+          </th>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+      <th scope="col">
+      <a href="http://localhost:3000/UniversityCourses"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;المقررات الجامعية</h6></a>
+      </th>
+      </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+      <th scope="col">
+      <a href=""><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لوائح الكليات</h6></a>
+      </th>
+      </tr>
+      </tbody>
+  </div>
+</div>
+  </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+<div class="col-md-10 content-top">
 <br />
 <br />
 
+  <div class="number">
+  <h3><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;خدمات الطلاب</b></h3>
 <hr/>
+
+    
+      
+<br />
+        <h6 className="fw-bolder">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تضع كلية الحاسبات و المعلومات امكانيات و موارد مالية كبيرة من أجل تقديم خدمات معلوماتية أساسية للطلاب
+        </h6>
+        <br />
+        <thead>
+    <tr>
+        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:تقدم هذه الصفحة هذه النماذج من الخدمات المتمثلة في</th> 
+    </tr>
+</thead>   
+<br />
+       
+      
+<table class="table table-bordered" style={{width:'100%' , background:''}}>
+  <br />
+<div class="panel panel-info">
+  <div class="panel-heading"> 
+  <table class="table table-bordered" style={{width:'100%' , background:'#e6f2ff'}}>
+    <br />
+    <h4 class="panel-title text-info" style={{fontWeight:'bold', fontSize:'20px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;امتحانات وجداول</h4>
+  <br />
+  </table>
+  </div> 
+  
+<br />
+<div class="panel-body"> 
+<div class="row">
+
+  <div class="col-sm-3" style={{textAlign:'center'}}>
+    <a href="http://localhost:3000/ExamSchedule">
+      <img src="images/tables.jpg"/><br />
+        <b>جداول الامتحانات</b>
+    </a>
+  </div>
+
+  <div class="col-sm-3" style={{textAlign:'center'}}> 
+    <a href="http://localhost:3000/ExamResults">
+      <img src="images/examresults.png"/><br />
+        <b>نتائج الامتحانات</b>
+    </a>
+  </div>
+
+  <div class="col-sm-3" style={{textAlign:'center'}}> 
+    <a href="http://localhost:3000/LectureSchedule">
+      <img src="images/schedual.png"/><br />
+        <b>جداول المحاضرات</b>
+    </a>
+  </div>
+  
+
+</div>
+</div>
+     </div>
+<br />
+     </table>
+     
+    </div>
+
+<table class="table table-bordered" style={{background:''}}>
+<br />
+<div class="panel panel-success"> 
+  <div class="panel-heading"> 
+  <table class="table table-bordered" style={{width:'100%' , background:'#d6f5d6'}}>
+    <br />
+    <h4 class="panel-title text-success" style={{fontWeight:'bold', fontSize:'20px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;مقررات</h4> 
+  <br />
+  </table>
+  </div> 
+    
+<br />
+<div class="panel-body">
+  <div className="row">
+<div class="col-sm-3" style={{textAlign:'center'}}>
+    <a href="RegulationsFaculty.php"> 
+      <img src="images/guids.png"/><br />
+        <b>لوائح الكليات</b>
+    </a>
+  </div>
+
+  <div class="col-sm-3" style={{textAlign:'center'}}>
+    <a href="http://localhost:3000/UniversityCourses">
+      <img src="images/courses.png" /><br /> 
+        <b>المقررات الجامعية</b>
+    </a>
+  </div>
+</div>
+  
+ </div>
+</div>
+<br />
+</table>
+
+ <table class="table table-bordered" style={{background:''}}>
+<br />
+<div class="panel panel-warning"> 
+  <div class="panel-heading"> 
+  <table class="table table-bordered" style={{width:'100%' , background:'#fff0e6'}}>
+    <br />
+   <h4 class="panel-title text-warning" style={{fontWeight:'bold', fontSize:'20px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;خدمات اخرى</h4> 
+  <br />
+  </table>
+  </div> 
+<br />
+<div class="panel-body"> 
+  <div class="row">
+    <div class="col-sm-3" style={{textAlign:'center'}}>
+      <a href="http://localhost:3000/Activity"> 
+        <img src="images/actvites.png"/><br />
+          <b>الانشطة الطلابية</b>
+      </a>
+    </div>
+</div>
+</div> 
+</div>
+<br />
+</table>
+
+
+<br />
+    </div>
+
+
+
+
+
+
+    <hr/>
 <footer>
   <div className="footer-top">
     <div className="container">
@@ -194,28 +269,10 @@ function Con() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>  
-      </div>
-
-    );
-}
-export default Con;
+    </div>
     
+  );
+}
+      
+
+export default Contact;

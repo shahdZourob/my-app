@@ -14,7 +14,7 @@ class LectureSchedule extends Component {
                         <span className="divider">/</span>
                     </th>
                     <th>
-                        <a href="http://localhost:3000/Student" className="pathway" style={{textDecoration:' none', color:'black'}}>خدمات الطلبة</a>
+                        <a href="http://localhost:3000/con" className="pathway" style={{textDecoration:' none', color:'black'}}>خدمات الطلبة</a>
                         <span className="divider">/</span>
                     </th>
                     <th>

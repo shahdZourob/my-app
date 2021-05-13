@@ -1,6 +1,7 @@
 export { default as Navigation } from "./Navigation";
 export { default as Home } from "./Home";
 export { default as About } from "./Study At FCI";
+
 export { default as Contact } from "./Useful link";
 export { default as Events } from "./Events";
 export { default as Info } from "./About";
@@ -35,6 +36,9 @@ export { default as SittingNumber } from "./SittingNumber";
 
 export { default as GraduationCertificate } from "./GraduationCertificate";
 export { default as Submit } from "./Submit";
+
+export { default as UniversityCourses } from "./UniversityCourses";
+
 
 
 
