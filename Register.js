@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import axios from 'axios';
 
 
-
 async function getUsers() {
     try {
       const response = await axios.get('https://fciscu.herokuapp.com/auth/register/');

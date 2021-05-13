@@ -215,22 +215,11 @@ function Home() {
 </div>
     </div>
 
-    <div class="under" >
-<nav class="navbar navbar-expand-lg navbar-hight bg-light">
-  <div class="container-fluid">
-    <p class="fw-bolder text-dark ">All Rights Reserved© 2019 Suez Canal University - Portal</p>
-  </div>
-</nav>
-    </div> 
 
 </footer>
 
 
-<footer class="w3-container w3-dark-grey" style={{padding:'32px'}}>
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom">
-    <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+
 
 
 

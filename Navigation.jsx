@@ -67,6 +67,7 @@ function Navigation(props) {
                   </Link>
 
               </li>
+
               <li
                 className={`nav-item  ${
                   props.location.pathname === "/contact" ? "active" : ""
@@ -76,7 +77,6 @@ function Navigation(props) {
                   Useful Links
                 </Link>
               </li>
-
               <li
                 className={`nav-item  ${
                   props.location.pathname === "/con" ? "active" : ""
@@ -271,6 +271,14 @@ function Navigation(props) {
                     }`}
               >
                 <Link className="nav-link" to="/Submit">
+                                
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/UniversityCourses" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/UniversityCourses">
                                 
                 </Link>
               </li>

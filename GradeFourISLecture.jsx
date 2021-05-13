@@ -6,6 +6,19 @@ class GradeFourISLecture extends Component {
     render(){
     return(
         <div>
+          <div class="container">
+
+<div class="pull-right">
+  <div class="date-today"></div>
+</div>
+<div class="pull-right">
+  <a href="#" class="scrollup main-background" style={{display:'block'}}>
+    <span class="fa fa-arrow-up">..</span>
+    <p>طباعة</p>
+  </a>
+</div>
+
+</div> 
 <br />
 <h5 className="text-black text-center"> جدول الفصل الدراسي الأول للعام الدراسي 2020-2021 (تعليم هجين) - (أول ثلاثة أسابيع من كل شهر)</h5>
 <h5 className="text-black text-center"> (الفرقة الرابعة نظم المعلومات)</h5>
