@@ -29,6 +29,7 @@ function Navigation(props) {
                   <span className="sr-only">(current)</span>
                 </Link>
               </li>
+
               <li
                 className={`nav-item  ${props.location.pathname === "/Info" ? "active" : ""
                   }`}
@@ -37,6 +38,15 @@ function Navigation(props) {
                                  About
                 </Link>
               </li>
+              <li
+                className={`nav-item  ${props.location.pathname === "/VisionAndMission" ? "active" : ""
+                    }`}
+              >
+                <Link className="nav-link" to="/VisionAndMission">
+                                
+                </Link>
+              </li>
+
               <li
                 className={`nav-item  ${props.location.pathname === "/Maps" ? "active" : ""
                     }`}
@@ -68,15 +78,8 @@ function Navigation(props) {
 
               </li>
 
-              <li
-                className={`nav-item  ${
-                  props.location.pathname === "/contact" ? "active" : ""
-                }`}
-              >
-                <Link className="nav-link" to="/contact">
-                  Useful Links
-                </Link>
-              </li>
+              
+              
               <li
                 className={`nav-item  ${
                   props.location.pathname === "/con" ? "active" : ""
@@ -135,54 +138,7 @@ function Navigation(props) {
                                 
                 </Link>
               </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeOneLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeOneLecture">
-                                
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeTwoLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeTwoLecture">
-                                
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeThirdISLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeThirdISLecture">
-                                
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeThirdCSLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeThirdCSLecture">
-                                
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeFourISLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeFourISLecture">
-                                
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${props.location.pathname === "/GradeFourCSLecture" ? "active" : ""
-                    }`}
-              >
-                <Link className="nav-link" to="/GradeFourCSLecture">
-                                
-                </Link>
-              </li>
+              
 
               <li
                 className={`nav-item  ${props.location.pathname === "/ExamSchedule" ? "active" : ""
@@ -294,6 +250,8 @@ function Navigation(props) {
               <li className="nav-item">
                 <Link className="nav-link" to={"/log-in"}>Register</Link>
               </li>
+
+
 
               
             </ul>

@@ -2,7 +2,32 @@ import React from "react";
 function About() {
         return (
             <div>
-               
+               <div class="col-md-2 sin-bottom" id="sidebar-wrapper">
+  <div class="sidenav" style={{width:'15%',  position:'fixed', textSize: '10px', background:'#e6f2ff'}}>
+    <h5 class=" text-center" style={{background:'#4da6ff'}}>عن الجامعة</h5>
+<div class="row">
+  <div class="col-md-10">
+    <thead>
+    <tr>
+    <th scope="col">
+      <a href="http://localhost:3000/VisionAndMission"><h6>Vision and Mission</h6></a>
+      </th>
+      </tr>
+      </thead>
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
                 
 <div className="main" >
 <h1 className="text-black text-center"> Why the Faculty of Computers and Informatics at SCU </h1>
