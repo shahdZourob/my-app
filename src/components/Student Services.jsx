@@ -45,7 +45,15 @@ function Contact() {
       <tbody>
         <tr>
       <th scope="col">
-      <a href=""><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لوائح الكليات</h6></a>
+      <a href="http://localhost:3000/GraduationCertificate"><h6>استخراج شهادةالتخرج</h6></a>
+      </th>
+      </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+      <th scope="col">
+      <a href="http://localhost:3000/VisionAndMission"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لوائح الكليات</h6></a>
       </th>
       </tr>
       </tbody>
@@ -137,7 +145,7 @@ function Contact() {
 <div class="panel-body">
   <div className="row">
 <div class="col-sm-3" style={{textAlign:'center'}}>
-    <a href="RegulationsFaculty.php"> 
+    <a href="http://localhost:3000/VisionAndMission"> 
       <img src="images/guids.png"/><br />
         <b>لوائح الكليات</b>
     </a>
@@ -147,6 +155,13 @@ function Contact() {
     <a href="http://localhost:3000/UniversityCourses">
       <img src="images/courses.png" /><br /> 
         <b>المقررات الجامعية</b>
+    </a>
+  </div>
+
+  <div class="col-sm-3" style={{textAlign:'center'}}>
+    <a href="http://localhost:3000/GraduationCertificate">
+      <img src="images/courses.png" /><br /> 
+        <b>استخراج شهادة التخرج</b>
     </a>
   </div>
 </div>
